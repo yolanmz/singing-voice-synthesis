@@ -4,11 +4,10 @@ Human voice is a complex signal since it is made of many small and random variat
 
 # Design & Method
 
-The two most important elements for our model are the sound source and the filters
+The two most important elements for our model are the sound source and the filter.
 ## Sound Source
-Belánger, Traube and Piché[1] proposed that
-## Filters
-To synthesize vowels, we need to model the source and 
-we need to identify the formants. A formants
-
+Belánger, Traube and Piché proposed that the excitation signal should be a mix of an impulse train generator and a noise generator to produce a harmonic and noisy signal[1].
+## Filter
+Each vowel is made of five formants defined in the the international phonetic alphabet. A formant is a local maximum in the spectrum.
+Each formant serves as a bandpass filter in parallel with each other to form the filter simulating vocal tract.
 # Reference
