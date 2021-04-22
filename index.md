@@ -10,4 +10,14 @@ Belánger, Traube and Piché proposed that the excitation signal should be a mix
 ## Filter
 Each vowel is made of five formants defined in the the international phonetic alphabet. A formant is a local maximum in the spectrum.
 Each formant serves as a bandpass filter in parallel with each other to form the filter simulating vocal tract.
+## Other Module
+### Vibrato
+### Pitch shifter
+
+# Usage
+
+# Challenge
+
+# Future Improvement
+
 # Reference
