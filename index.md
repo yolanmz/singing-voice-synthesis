@@ -32,5 +32,5 @@ There are some problems I encountered when I implemented this patcher. As mentio
 Overall, 
 # REFERENCE
 [1] Bélanger, Olivier & Traube, Caroline & Piché, Jean. (2007). DESIGNING AND CONTROLLING A SOURCE-FILTER MODEL FOR NATURALISTIC AND EXPRESSIVE SINGING VOICE SYNTHESIS. <br />
-[2] MAX/MSP - Generating Human Voices/Vowels - Formant Synthesis. (2010, July 16). [Video]. YouTube. https://www.youtube.com/watch?v=GRAiDa7KHz8
-[3] McCarty, J. (2003). Timbral Analysis & Orchestration. Center for Computer Research in Music and Acoustics(CCRMA). <br /> https://ccrma.stanford.edu/%7Ejmccarty/formant.htm <br />
+[2] MAX/MSP - Generating Human Voices/Vowels - Formant Synthesis. (2010, July 16). [Video]. YouTube. https://www.youtube.com/watch?v=GRAiDa7KHz8 <br /> 
+[3] McCarty, J. (2003). Timbral Analysis & Orchestration. Center for Computer Research in Music and Acoustics(CCRMA). https://ccrma.stanford.edu/%7Ejmccarty/formant.htm <br />
