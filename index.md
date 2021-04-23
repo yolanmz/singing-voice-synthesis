@@ -12,7 +12,7 @@ Each vowel is made of five formants defined in the the international phonetic al
 Here is a vowel chart including the first and second formant frequencies. 
 ![vowelChart](media/vowel_chart.jpeg)[3]<br />
 From the chart, we can see that the first formant usually falls under 1000 hertz and the second formant falls between 500 to 3000 hertz. These two formants are enough to identify a vowel. <br />
-In this project, we synthesize the vowels with the formant frequencies from this chart below. All five formant frequencies are given here. The user has the option to choose between filter of three formants or filter of five formants to compare the sound quality difference.
+In this project, we synthesize the vowels with the formant frequencies from this chart below. All five formant frequencies are given here. In our patcher, the user has the option to choose between filter of three formants or filter of five formants to compare the sound quality difference.
 ![formantFrequencies](media/formant_frequencies.png) <br />
 ## Other Module
 Some other parameters are introduced to add variations to the resulting sound.
