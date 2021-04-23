@@ -13,13 +13,13 @@ Here is a vowel chart including the first and second formant frequencies.
 ![vowelChart](media/vowel_chart.jpeg)[3]<br />
 From the chart, we can see that the first formant usually falls under 1000 hertz and the second formant falls between 500 to 3000 hertz. These two formants are enough to identify a vowel. <br />
 In this project, we synthesize the vowels with the formant frequencies from this chart below. All five formant frequencies are given here. The user has the option to choose between filter of three formants or filter of five formants to compare the sound quality difference.
-![formantFrequencies](media/formant_frequencies.png)[4] <br />
+![formantFrequencies](media/formant_frequencies.png) <br />
 ## Other Module
 Some other parameters are introduced to add variations to the resulting sound.
 ### Vibrato
 A vibrato is included in the patcher in order to achieve a more natural sound effect. According to Belánger, Traube and Piché, a deviation of about 1% of the fundamental frequency results in the most natural sounding human voice[1]. The ideal vibrato rate should be within the range of 5-8 Hz.
 ### Pitch shifter
-I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and child's singing voice and hoped to synthesize voice of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter.
+I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and child's singing voice and hoped to synthesize voice of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. 
 # USAGE
 ![maxPatcher](media/patcher.png)
 # CHALLENGE
