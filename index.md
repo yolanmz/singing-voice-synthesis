@@ -17,15 +17,16 @@ In this project, we synthesize the vowels with the formant frequencies from this
 ## Other Module
 Some other parameters are introduced to add variations to the resulting sound.
 ### Vibrato
-A vibrato is included in the patcher in order to make the synthesized vowel sound more realistic. According to Belánger, Traube and Piché, a deviation of about 1% of the fundamental frequency results in the most natural sounding human voice[1]. The ideal vibrato rate should be within the range of 5-8 Hz.
+A vibrato is included in the patcher in order to make the synthesized vowel sound more realistic. According to Belánger, Traube and Piché, a deviation of about 1% of the fundamental frequency results in the most natural sounding human voice[1]. The ideal vibrato rate should be within the range of 5-8 Hz. In the patcher, the user can choose the ideal settings or enter preferred values.
 ### Pitch shifter
-I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and children's singing voice, and hoped to synthesize voices of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. 
+I also included a pitch shifter using the technique of doppler effect implemented with delay lines. Initially, I looked up formant frequencies of female and children's singing voice, and hoped to synthesize voices of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. In my opinion, it does help produce sound closer to children's singing voice, but it sounds less natural and more robot-like. 
 # USAGE
 Here is a screenshot of the user interface. <br />
 ![maxPatcher](media/patcher.png)
-As we can see from the patcher, the user gets to select the vowel, control the vowel's length and transition time and decide the number of formants used for synthesis.
+As we can see from the patcher, the user gets to select the vowel, control the vowel's length and transition time and decide the number of formants used for synthesis. The toggle turns on auto play notes. The user can choose from random notes or one of the two pitches. The default phasor value for the pitch shifter is -6 to produce sound of high pitch. A positive value here would result in sound of even lower pitch than the original.
 
 # CHALLENGE
+There are some problems I encountered when implementing this patcher. As mentioned before, I wasn't so successful generating female and children's singing voice. But in general, the bigger issue I had is to make the synthesized voice sound natural. 
 
 # CONCLUSION
 
