@@ -21,7 +21,9 @@ A vibrato is included in the patcher in order to achieve a more natural sound ef
 ### Pitch shifter
 I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and child's singing voice and hoped to synthesize voice of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. 
 # USAGE
+Here is a screenshot of the user interface. <br />
 ![maxPatcher](media/patcher.png)
+
 # CHALLENGE
 
 # CONCLUSION
