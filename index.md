@@ -17,9 +17,9 @@ In this project, we synthesize the vowels with the formant frequencies from this
 ## Other Module
 Some other parameters are introduced to add variations to the resulting sound.
 ### Vibrato
-A vibrato is included in the patcher in order to achieve a more natural sound effect. According to Belánger, Traube and Piché, a deviation of about 1% of the fundamental frequency results in the most natural sounding human voice[1]. The ideal vibrato rate should be within the range of 5-8 Hz.
+A vibrato is included in the patcher in order to make the synthesized vowel sound more realistic. According to Belánger, Traube and Piché, a deviation of about 1% of the fundamental frequency results in the most natural sounding human voice[1]. The ideal vibrato rate should be within the range of 5-8 Hz.
 ### Pitch shifter
-I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and child's singing voice and hoped to synthesize voice of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. 
+I also included a pitch shifter in this patcher. Initially, I looked up formant frequencies of female singing voice and children's singing voice, and hoped to synthesize voices of different characters. However, they all end up sounding like the male voice. Since women and children speak a higher pitch than men in general, I added an option to pass the resulting sound to a pitch shifter and expected it would make a difference. 
 # USAGE
 Here is a screenshot of the user interface. <br />
 ![maxPatcher](media/patcher.png)
