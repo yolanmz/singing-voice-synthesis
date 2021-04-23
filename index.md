@@ -23,7 +23,7 @@ I also included a pitch shifter in this patcher. Initially, I looked up formant 
 # USAGE
 Here is a screenshot of the user interface. <br />
 ![maxPatcher](media/patcher.png)
-As we can see from the patcher, the user gets to control 
+As we can see from the patcher, the user gets to select the vowel, control the vowel's length and transition time and decide the number of formants used for synthesis.
 
 # CHALLENGE
 
