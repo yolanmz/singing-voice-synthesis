@@ -23,11 +23,11 @@ I also included a pitch shifter using the technique of doppler effect implemente
 # USAGE
 Here is a screenshot of the user interface. <br />
 ![maxPatcher](media/patcher.png)
-As we can see from the patcher, the user gets to select the vowel, control the vowel's length and transition time and decide the number of formants used for synthesis. The toggle turns on auto play notes. The user can choose from random notes or one of the two pitches. The default phasor value for the pitch shifter is -6 to produce sound of high pitch. A positive value here would result in sound of even lower pitch than the original.
+As we can see from the patcher, the user gets to select the vowel, control the vowel's length and transition time and decide the number of formants used for synthesis. The toggle turns on auto play notes. The user can choose from random notes or one of the two pitches. The default phasor value for the pitch shifter is -6 to produce sound of higher pitch. A positive value here would result in sound of even lower pitch than the original.
 
 # CHALLENGE
-There are some problems I encountered when implementing this patcher. As mentioned before, I wasn't so successful generating female and children's singing voice. But in general, the bigger issue I had is to make the synthesized voice sound natural. 
+There are some problems I encountered when I implemented this patcher. As mentioned before, I wasn't so successful generating female and children's singing voice. But in general, the bigger issue I had is to make the synthesized voice sound natural. I believe the noise generator synthesizing breath and the vibrato help to contribute to the naturalness of the sound. However, my roughness parameter does not work very well and it sounds there's too much air. Additionally, there are probably other methods I can use to achieve a better sound quality, such as adding random variations to the fundamental frequency and the amplitude of the harmonic source signal or varying the central frequencies of the formants within a certain range to produce different tone quality.
 
 # CONCLUSION
-
+Overall, 
 # REFERENCE
