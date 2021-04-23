@@ -13,7 +13,7 @@ Each formant serves as a bandpass filter in parallel with each other to form the
 Here is a vowel chart including the first and second formant frequencies. 
 ![vowelChart](media/vowel_chart.jpeg)<br />
 From the chart, we can see that the first formant usually falls under 1000 hertz and the second formant falls between 500 to 3000 hertz. These two formants are enough to identify a vowel. <br />
-![formantFrequencies](media/formant_frequencies.jpeg)<br />
+![formantFrequencies](media/formant_frequencies.png)<br />
 In this project, we synthesize the vowels with the formant frequencies from this chart above.
 ## Other Module
 ### Vibrato
